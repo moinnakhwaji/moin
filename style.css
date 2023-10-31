@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "gilroy";
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+  
+}
+.back{
+    height: 100vh;
+    width: 100%;
+   
+   
+}
+.top{
+    pointer-events: none;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+  
+}
+.workingarea{
+    position: relative;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    /* background-color: gray; */
+    margin: 0 auto;
+}
+.navleft img{
+    height: 5vw;
+  
+}
+.nav{
+    pointer-events: all;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1vw;
+    opacity: .7;
+    text-transform: uppercase;
+    margin: 0 2vw;
+}
+.hero{
+    transform: translate(0,-50%);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.heroleft{
+    width: 50%;
+    min-width: 50%;
+}
+.heroleft .elem{
+    position: relative;
+    overflow: hidden; 
+    height: 9vw;
+
+}
+
+.heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-family: kajiro;
+    font-weight: 100;
+    font-size: 9vw;
+   
+}
+.heroleft .elem h1:nth-child(1){
+    top: 0;
+}
+
+button{
+    pointer-events: all;
+    color: black;
+    padding: 1vw 4vw;
+    text-decoration: none;
+     font-size: 3vw;
+     font-family: kajiro;
+}
+.heroright{
+ width: 25%;
+ display: flex;
+ align-items: flex-end;
+ flex-direction: column;
+}
+.heroright p{
+    text-align: right;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.heroright .imagediv{
+
+width: 80%;
+height: 150px;
+background-image: url(./4image.JPG);
+background-size: cover;
+margin-bottom: 2vw;
+}
+#last{
+    margin-top: 3vw;
+}
+.back img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+}
